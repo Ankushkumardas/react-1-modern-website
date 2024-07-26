@@ -1,0 +1,119 @@
+.gpt-footer {
+  background: #031b34;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gpt-footer-heading {
+  font-family: var(--font-family);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.gpt-footer-heading h1 {
+  width: 821px;
+  height: 150px;
+  top: 4796px;
+  left: 310px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Manrope;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-left: 240px
+}
+.gpt-footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 10rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.gpt-footer-btn p{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    word-spacing: 2px;
+}
+.gpt-footer-links{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 16px;
+    text-align: left;
+  
+}
+.gpt-footer-links div{
+    width: 250px;
+    margin: 1rem;
+
+}
+.gpt-footer-links-logo{
+    display: flex;
+    flex-direction: column;
+}
+.gpt-footer-links-logo img{
+    width: 118px;
+height: 30px;
+top: 5260px;
+left: 208px;
+gap: 0px;
+opacity: 0px;
+margin-bottom: 1rem;
+}
+.gpt-footer-links-div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.gpt-footer-links-div h4{
+    width: 100%;
+height: 17px;
+top: 5255px;
+left: 611px;
+gap: 0px;
+opacity: 0px;
+font-family: var(--font-family);
+font-size: 16px;
+line-height: 16.41px;
+text-align: left;
+margin-bottom: 1rem;
+}
+.gpt-footer-links-div p{
+    margin-bottom: 1rem;
+}
+.gpt-footer-cw{
+    margin-top: 2rem;
+    font-family: var(--font-family);
+font-size: 16px;
+color: white;
+}
+.gpt-footer-cw p{
+    width: 100%;
+height: 15px;
+top: 5529px;
+left: 630px;
+gap: 0px;
+opacity: 0px;
+font-family: var(--font-family);
+font-size: 12px;
+line-height: 14.06px;
+text-align: left;
+
+}

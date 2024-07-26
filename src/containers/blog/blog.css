@@ -1,0 +1,44 @@
+.gpt-blog{
+    display: flex;
+    flex-direction: column;
+}
+.gpt-blog-heading{
+    width: 100%;
+font-family: Manrope;
+font-weight: 800;
+
+margin-bottom: 5rem;
+}
+.gpt-blog-heading h1{
+    width: 701px;
+height: 150px;
+top: 3505px;
+left: 134px;
+gap: 0px;
+opacity: 0px;
+font-family: Manrope;
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: left;
+
+}
+.gpt-blog-container{
+    display: flex;
+    flex-direction: row;
+}
+.gpt-blog-container-grpa    {
+    display: flex;
+    /* flex-direction: row;  */
+    flex: 0.75;
+    margin-right: 2rem;
+}
+.gpt-blog-container-grpb    {
+    display: grid;
+    /* flex-direction: row;  */
+    flex:1;
+    margin-right: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}

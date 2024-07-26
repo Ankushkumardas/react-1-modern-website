@@ -1,0 +1,93 @@
+.gpt-w {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 4rem 6rem;
+}
+.gpt-w-feature {
+  display: flex;
+}
+.gpt-w-feature .gpt-feature-container-feature {
+  margin: 0;
+}
+.gpt-w-feature .gpt-feature-container-feature-text {
+  /* margin: 0; */
+  max-width: 700px;
+}
+.gpt-w-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0 2rem;
+}
+.gpt-w-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  max-width: 510px;
+}
+.gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gpt-w-heading p{
+    line-height: 45px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+}
+.gpt-w-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    margin-top: 2rem;
+    justify-content: space-between;
+}
